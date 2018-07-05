@@ -1,0 +1,49 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .game-window{
+      border:1px solid red;
+      /*background-color: rgb(153, 147, 147);*/
+      width: 400px;
+      height: 400px;
+      
+  }
+
+  .container{
+      display:flex;
+      justify-content: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+  }
+.grid-elements{
+    border: 1px solid blue;
+}
+
+.player-color{
+    background-color: rgb(111, 166, 211);
+} 
+
+.bad-color{
+    background-color: red;
+}
+.good-color{
+    background-color: darkgreen;
+}
+
+.neutral-background{
+    background-color: white;
+}
